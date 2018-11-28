@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,24 +11,26 @@
 	<!-- <link rel="stylesheet" href="css/font-awesome4.min.css"> -->
 	<link rel="stylesheet" href="css/font-face.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<div class="container">
-			<div class="wrapper-top-content">
-				<header class="content">
-					<div class="fluid-content">
-						<span class="logo">pingbull<span>er</span></span>
-						<nav>
-							<ul class="block_link_header">
-								<li><a class="link_header" href="">HOME</a></li>
-								<li><a class="link_header" href="">ABOUT</a></li>
-								<li><a class="link_header" href="">BLOG</a></li>
-								<li><a class="link_header" href="">PRODUCTS</a></li>
-								<li><a class="link_header" href="">LOREM IPSUM</a></li>
-								<li><a class="link_header" href="">DOLOR SIT AMET</a></li>
+			<div class="background-head">
+				<header class="header content">
+					<!-- <div class="fluid-content">
+					</div> -->
+					<span class="logo logo-480">pingbull<span class="logo__er">er</span>
+					</span>
+						<nav class="nav nav-480">
+							<ul class="nav__body nav__body-480">
+								<li class="nav__menu-480"><a class="nav__link nav__link-480" href="#">HOME</a></li>
+								<li><a class="nav__link nav__link--480" href="#">ABOUT</a></li>
+								<li><a class="nav__link nav__link--480" href="#">BLOG</a></li>
+								<li><a class="nav__link nav__link--480" href="#">PRODUCTS</a></li>
+								<li><a class="nav__link nav__link--480" href="#">LOREM IPSUM</a></li>
+								<li><a class="nav__link nav__link--480" href="#">DOLOR SIT AMET</a></li>
 							</ul>
 						</nav>
-					</div>
 				</header>
 		<!-- SLICK SLIDER >>>START -->
 				<div class="slider-place">
@@ -37,17 +39,17 @@
 							<div class="content-slider__wrapper">
 								<h3 class="content-slider__h3">lorem ipsum dolor</h3>
 								<p class="content-slider__paragraph">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-								<span class="content-slider__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span>
+								<span class="content-slider__text">Semper sollicitudin gravida eget, ves<span class="visibly-768">-</span>tibulum sit amet sapien. Nunc dignis<span class="visibly-768">-</span>sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden-768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></span>
 							</div>
 							<div class="iphones">
-								<audio controls preload="none">
+								<audio class="audio-iphone" preload="none">
 									<source src="songs/adele_hello.mp3" type="audio/mpeg">
 								</audio>
 							<div class="btn-play">
 								<div class="btn-play__border1">
 									<div class="btn-play__border2">
 										<div class="btn-play__border3">
-											<button class="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+										<button id="play-btn1" class="plays fa fa-play"></button>
 										</div>
 									</div>
 								</div>
@@ -58,17 +60,17 @@
 							<div class="content-slider__wrapper">
 								<h3 class="content-slider__h3">lorem ipsum dolor</h3>
 								<p class="content-slider__paragraph">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-								<span class="content-slider__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span>
+								<span class="content-slider__text">Semper sollicitudin gravida eget, ves<span class="visibly-768">-</span>tibulum sit amet sapien. Nunc dignis<span class="visibly-768">-</span>sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden-768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></span>
 							</div>
 							<div class="iphones">
-								<audio controls preload="none">
+								<audio class="audio-iphone" preload="none">
 									<source src="songs/adele_hello.mp3" type="audio/mpeg">
 								</audio>
 							<div class="btn-play">
 								<div class="btn-play__border1">
 									<div class="btn-play__border2">
 										<div class="btn-play__border3">
-											<button class="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+											<button id="play-btn2" class="plays fa fa-play"></button>
 										</div>
 									</div>
 								</div>
@@ -79,17 +81,17 @@
 							<div class="content-slider__wrapper">
 								<h3 class="content-slider__h3">lorem ipsum dolor</h3>
 								<p class="content-slider__paragraph">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-								<span class="content-slider__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span>
+								<span class="content-slider__text">Semper sollicitudin gravida eget, ves<span class="visibly-768">-</span>tibulum sit amet sapien. Nunc dignis<span class="visibly-768">-</span>sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden-768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></span>
 							</div>
 								<div class="iphones">
-									<audio controls preload="none">
+									<audio class="audio-iphone" preload="none">
 									<source src="songs/adele_hello.mp3" type="audio/mpeg">
 								</audio>
 							<div class="btn-play">
 								<div class="btn-play__border1">
 									<div class="btn-play__border2">
 										<div class="btn-play__border3">
-											<button class="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+											<button id="play-btn3" class="plays fa fa-play"></button>
 										</div>
 									</div>
 								</div>
@@ -100,17 +102,17 @@
 							<div class="content-slider__wrapper">
 								<h3 class="content-slider__h3">lorem ipsum dolor</h3>
 								<p class="content-slider__paragraph">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
-								<span class="content-slider__text">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span>
+								<span class="content-slider__text">Semper sollicitudin gravida eget, ves<span class="visibly-768">-</span>tibulum sit amet sapien. Nunc dignis<span class="visibly-768">-</span>sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden-768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></span>
 							</div>
 							<div class="iphones">
-								<audio controls preload="none">
+								<audio class="audio-iphone" preload="none">
 									<source src="songs/adele_hello.mp3" type="audio/mpeg">
 								</audio>
 							<div class="btn-play">
 								<div class="btn-play__border1">
 									<div class="btn-play__border2">
 										<div class="btn-play__border3">
-											<button class="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+											<button id="play-btn4" class="plays fa fa-play"></button>
 										</div>
 									</div>
 								</div>
@@ -122,102 +124,140 @@
 				<!-- SLICK SLIDER <<<END -->
 			</div>
 				<main></main>
-		<section class="block-article1">
-			<div class="content article1-content">
-				<article class="block-article1__section">
-					<h3 class="block-article1__header"><span class="wrench"></span> about our company</h3>
-					<span class="block-article1__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span>
-					<button class="block-article1__btn">READ MORE</button>
+		<section class="about">
+			<div class="content about__content">
+				<article class="about__section">
+					<h3 class="about__header wrench">about our company</h3>
+					<span class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768">-</span>suere. Pel<span class="visibly-768">-</span>
+					lentesque vel lacus <span class="hidden-768 visibly-480">eget nisi convallis auctor. Nam <span class="hidden-480">vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></span>
+					</span>
+					<button class="about__btn">READ MORE</button>
 				</article>
-				<article class="block-article1__section">
-					<h3 class="block-article1__header"><i class="fa fa-comment  fa-flip-horizontal" aria-hidden="true"></i>about our company</h3>
-					<span class="block-article1__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span>
-					<button class="block-article1__btn">READ MORE</button>
+				<article class="about__section">
+					<h3 class="about__header facomment hidden-768">
+					about our company</h3>
+					<h3 class="about__header wrench visibly-768">about our company</h3>
+						<span class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768">-</span>suere. Pel<span class="visibly-768">-</span>
+					lentesque vel lacus <span class="hidden-768 visibly-480">eget nisi convallis auctor. Nam <span class="hidden-480">vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></span>
+					</span>
+					<button class="about__btn">READ MORE</button>
 				</article>
-				<article class="block-article1__section">
-					<h3 class="block-article1__header"><i class="fa fa-music" aria-hidden="true"></i>
-about our company</h3>
-					<span class="block-article1__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span>
-					<button class="block-article1__btn">READ MORE</button>
+				<article class="about__section">
+					<h3 class="about__header famusic hidden-768">about our company</h3>
+					<h3 class="about__header wrench visibly-768">about our company</h3>
+						<span class="about__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768">-</span>suere. Pel<span class="visibly-768">-</span>
+					lentesque vel lacus <span class="hidden-768 visibly-480">eget nisi convallis auctor. Nam <span class="hidden-480">vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.</span></span>
+					</span>
+					<button class="about__btn">READ MORE</button>
 				</article>
 			</div>
 		</section>
 			<div class="comments-and-updates">
+				<div class="border-white content"></div>
 					<div class="comments-and-updates__wrapper content">
-						<section id="slider-comments">
+<!-- SLIDER COMMENTS --><section id="slider-comments">
 							<div class="slider-comments__item">
 								<div class="slider-comments__content">
 									<h3 class="slider-comments__h3-text"><span class="slider-comments__user"></span> pingbuller <span class="slider-comments__h3-pink">starts here</span></h3>
-									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-
-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768 visibly-480">-</span>suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar<span class="hidden-768 visibly-480"> urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span>
+									</p>
 									<div class="slider-comments__triangle"></div>
 								</div>
 							</div>
 							<div class="slider-comments__item">
 								<div class="slider-comments__content">
 									<h3 class="slider-comments__h3-text"><span class="slider-comments__user"></span> pingbuller <span class="slider-comments__h3-pink">starts here</span></h3>
-									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-
-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768 visibly-480">-</span>suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar<span class="hidden-768 visibly-480">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></p>
 									<div class="slider-comments__triangle"></div>
 								</div>
 							</div>
 							<div class="slider-comments__item">
 								<div class="slider-comments__content">
 									<h3 class="slider-comments__h3-text"><span class="slider-comments__user"></span> pingbuller <span class="slider-comments__h3-pink">starts here</span></h3>
-									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-
-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768 visibly-480">-</span>suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar<span class="hidden-768 visibly-480">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></p>
 									<div class="slider-comments__triangle"></div>
 								</div>
 							</div>
 							<div class="slider-comments__item">
 								<div class="slider-comments__content">
 									<h3 class="slider-comments__h3-text"><span class="slider-comments__user"></span> pingbuller <span class="slider-comments__h3-pink">starts here</span></h3>
-									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po-
-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+									<p class="slider-comments__text">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices po<span class="hidden-768 visibly-480">-</span>suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar<span class="hidden-768 visibly-480">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></p>
 									<div class="slider-comments__triangle"></div>
 								</div>
 							</div>
 						</section>
-						<section class="recent-updates">
-							<h4 class="recent-updates__h4">recent updates</h4>
-							<div class="recent-updates__body">
-								<p class="recent-updates__item recent-updates__body--item1">Nunc turpis neque feugiat eget</p>
-								<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 in Recent News</span>
+						<section class="recent-block">
+							<div class="recent-updates">
+								<h4 class="recent-updates__h4">recent updates</h4>
+								<div class="recent-updates__body">
+									<p class="recent-updates__item recent-updates__body--item1">Nunc turpis neque feugiat eget</p>
+									<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 <span class="hidden-768">in Recent News</span></span>
+								</div>
+								<div class="recent-updates__body">
+									<p class="recent-updates__item recent-updates__body--item2">Nunc turpis neque feugiat eget</p>
+									<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 <span class="hidden-768">in Category</span></span>
+								</div>
+								<div class="recent-updates__body">
+									<p class="recent-updates__item recent-updates__body--item3">Nunc turpis neque feugiat eget</p>
+									<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 <span class="hidden-768">in Blog Updates</span></span>
+								</div>
+								<button id="recent-updates__btn-read"><span class="hidden-768">read more here</span><span class="visibly-768">more blog posts</span></button>
 							</div>
-							<div class="recent-updates__body">
-								<p class="recent-updates__item recent-updates__body--item2">Nunc turpis neque feugiat eget</p>
-								<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 in Category</span>
-							</div>
-							<div class="recent-updates__body">
-								<p class="recent-updates__item recent-updates__body--item3">Nunc turpis neque feugiat eget</p>
-								<span class="recent-updates__date-posted">Posted by Admin on March 13 2012 in Blog Updates</span>
-							</div>
-							<button id="recent-updates__btn-read">read more here</button>
 						</section>
 					</div>
 			</div>
 			<aside class="ads">
 				<div class="ads__logos">
 					<img class="ads__img" src="img/logos_nizhnij.png" alt="ads image">
-				</div>	
+				</div>
 			</aside>
-			<div class="block__footer">
-				<footer>
+		<footer class="footer">
+			<div class="footer-grid content">
 			<section class="footer__columns">
-				<div class="footer__columns-l">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ex fuga necessitatibus maxime, soluta hic possimus velit est nobis totam odio minima sunt quasi error beatae expedita, eveniet sed alias et iste. Laboriosam quaerat saepe error deserunt nesciunt perferendis impedit dolores dolore quam illum! Odio, fuga iusto eos consequatur voluptates!</div>
-				<div class="footer__columns-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nostrum, praesentium animi nemo nobis qui rem dolorum perferendis sit quaerat ipsum quae aperiam vero, tenetur ducimus magni autem corrupti tempora? Iure voluptate, doloribus impedit, odit illo quisquam neque ut ipsam asperiores reiciendis itaque modi praesentium dolore voluptatum enim dignissimos est.</div>
-				<div class="footer__columns-r">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quia ea quo animi repellendus est sequi iure perspiciatis aut fugit vero porro accusantium nulla nihil vitae quidem ex. Ad dolor blanditiis rerum distinctio, dicta facere voluptate, culpa expedita eveniet. Tempore, blanditiis molestias quidem tempora fuga impedit at dolorum, dicta dolor.</div>
-			</section>
-					<ul>
-						<li class="footer_menu"><a class="link_footer" href="">HOME</a></li>
-						<li class="footer_menu"><a class="link_footer" href="">ABOUT</a></li>
-						<li class="footer_menu"><a class="link_footer" href="">BLOG</a></li>
-						<li class="footer_menu"><a class="link_footer" href="">PRODUCTS</a></li>
-						<li class="footer_menu"><a class="link_footer" href="">LOREM IPSUM</a></li>
-						<li class="footer_menu"><a class="link_footer" href="">DOLOR SIT AMET</a></li>
-					</ul>
-				</footer>
+				<div class="footer__columns-l">
+					<h3 class="footer__columns-h3">
+						<span class="visibly-768">Recent comments</span>
+						<span class="logo logo--footer hidden-768">pingbull<span class="logo__er logo__er--footer">er</span></span>
+					</h3>
+					<p class="copyright hidden-768">Copyright 2013, Pingbull AS</p>
+					Nunc turpis neque, feugiat eget eleif<span class="hidden-768">-</span>end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen<span class="visibly-768">-</span>
+				tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-
+				vinar. Quisque urna risus, mattis pulvi-
+		nar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
 			</div>
+				<div class="footer__columns-c">
+					<h3 class="footer__columns-h3">Recent comments</h3>
+					Nunc turpis neque, feugiat eget eleif<span class="hidden-768">-</span>end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen<span class="visibly-768">-</span>
+				tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-
+				vinar. Quisque urna risus, mattis pulvi-
+		nar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+			</div>
+				<div class="footer__columns-r">
+					<h3 class="footer__columns-h3"><span class="visibly-768">Recent comments</span><span class="hidden-768">News categories</span></h3>
+					Nunc turpis neque, feugiat eget eleif<span class="hidden-768">-</span>end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen<span class="visibly-768">-</span>
+				tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-
+				vinar. Quisque urna risus, mattis pulvi-
+		nar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl. Quisque libero tellus, pharetra et eleifend id, interdum elementum arcu. Suspendisse quis mauris non ligula rutrum faucibus eu quis odio. Phasellus eu lobortis odio. In hac habitasse platea dictumst. Proin vestibulum turpis at mauris aliquam non euismod lorem euismod. Aenean dapibus ultricies enim, eget vulputate leo feugiat non.
+	</div>
+			</section>
+			<!-- <div class="border-white border-white--footer content"></div> -->
+		</div>
+			<div class="nav-background">
+				<div class="nav-wrapper content">
+					<nav class="nav nav--footer">
+						<ul class="nav__body">
+							<li class="nav__item"><a class="nav__link" href="">HOME</a></li>
+							<li class="nav__item"><a class="nav__link" href="">ABOUT</a></li>
+							<li class="nav__item"><a class="nav__link" href="">BLOG</a></li>
+							<li class="nav__item"><a class="nav__link" href="">PRODUCTS</a></li>
+							<li class="nav__item"><a class="nav__link" href="">LOREM IPSUM</a></li>
+							<li class="nav__item"><a class="nav__link" href="">DOLOR SIT AMET</a></li>
+						</ul>
+					</nav>
+					<span class="designed">Designed by <b>Pingbull AS</b></span>
+				</div>
+			</div>
+		</footer>
 	</div>
 	<!-- <div class="">
 					<a href="#"><svg class="slider__triangle-shadowl" width="40" height="40">
