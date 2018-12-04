@@ -718,8 +718,13 @@ li.slick-active::after
 }
 
 .ads__img
-{
-    max-width: 100%;
+{   
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    background: url(../img/logos_down_origin.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 /*ADs LOGOS <<<END*/
