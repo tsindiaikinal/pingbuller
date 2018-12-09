@@ -218,7 +218,7 @@
 
 	.designed {
 		display: block;
-		width: 180px;
+		width: 145px;
 		margin-top: 50px;
 	}
 
@@ -270,7 +270,11 @@
 		width: 50px;
 		height:40px;
 		border-bottom: 2px solid #edbfff;
-	}
+    }
+    
+    .nav__link-480:hover {
+        text-shadow: 0 0 8px rgba(255, 255, 255, .8);
+    }
 
 	.nav-480:hover
 {
@@ -324,7 +328,8 @@
 		   -moz-transition: background-color .5s;
 		    -ms-transition: background-color .5s;
 		     -o-transition: background-color .5s;
-		        transition: background-color .5s;
+                transition: background-color .5s;
+        text-shadow: 0 0 8px rgba(255, 255, 255, .8);
 	}
 
 	.about {
@@ -487,8 +492,13 @@
 
 	.nav--footer {
 		max-width: 528px;
-		margin-bottom: 25px;
-	}
+        margin-bottom: 25px;
+    }
+    
+    .nav--footer .nav__body {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 
 	.nav-wrapper {
 		top: 70px;
@@ -512,4 +522,70 @@
 		display: none;
 	}
 
+}
+
+@media only screen and ( max-width: 479px) {
+    .slider-comments__content {
+        width: 258px;
+    }
+
+    .slider-comments__h3-text {
+        padding-bottom: 5px;
+    }
+
+    .slider-comments__h3-text,
+    .slider-comments__h3-pink {
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .slider-comments__text {
+        width: 178px;
+    }
+
+    .recent-block {
+        width: 300px;
+        padding-left: 20%;
+    }
+
+    #recent-updates__btn-read {
+        margin-left: 44%;
+    }
+
+    .recent-btn-size {
+        margin-left: 0;
+    }
+
+    .footer-grid {
+        display: none;
+    }
+
+    .ads {
+        height: 420px;
+    }
+
+    .ads__logos {
+        max-width: 260px;
+        height: inherit;
+    }
+    .ads__img {
+        height: 320px;
+        background-image: url(../img/brends-320.png);
+        background-size: contain;
+    }
+
+    .nav--footer {
+        display: none;
+    }
+    .designed {
+        margin-top: -35px;
+    }
+
+    .hidden-320 {
+        display: none;
+    }
+
+    /* .visibly-320 {
+        display: inline;
+    } */
 }
