@@ -525,6 +525,32 @@
 }
 
 @media only screen and ( max-width: 479px) {
+    
+    .about__section {
+        width: 200px;
+        height: 100px;
+        margin-left: -25px;
+        box-sizing: border-box;
+    }
+
+    .about__section:first-child {
+        margin-left: -25px;
+    }
+
+    .about__text {
+        width: inherit;
+    }
+
+    .about__btn {
+        margin-left: 145px;
+        margin-bottom: 0;
+        width: 70px;
+    }
+
+    #slider-comments {
+        max-width: 290px;
+    }
+
     .slider-comments__content {
         width: 258px;
     }
@@ -544,7 +570,7 @@
     }
 
     .recent-block {
-        width: 300px;
+        width: 220px;
         padding-left: 20%;
     }
 
