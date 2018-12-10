@@ -24,7 +24,7 @@ $('document').ready(function() {
     {
       breakpoint: 767,
       settings: {
-      	arrows: false
+      	// arrows: false
         // slidesToShow: 1,
         // slidesToScroll: 1
       }
@@ -37,10 +37,8 @@ $('document').ready(function() {
     nextArrow: '<svg class="slider__triangle-r" width="24px" height="34px" viewBox="47 1 12 19"><polyline points="50,4 56,10.5 50,17" stroke="white" stroke-width="4.5" stroke-linecap="round" fill="none"/></svg>'
 	});
 	$('#slider-comments').slick({
-		// autoplay:true,
-		// variableWidth:true,
-		// infinite: true,
-		arrows: false,
+			autoplay:true,
+			arrows: false,
 	    slidesToShow:1,
 	    slidesToScroll:1,
 	    dots:true
@@ -52,7 +50,7 @@ $('document').ready(function() {
 
 	$('#slider-comments .slick-dots li').addClass('dots-background');
 		
-		
+		// jQuery code
 			// $(".plays").click(function() {
 			// 		var playActive = $('.audio-iphone').toggleClass("play-active");
 			// 			if( $('.audio-iphone').hasClass('playActive') ) {

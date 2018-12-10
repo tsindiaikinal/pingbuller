@@ -17,7 +17,6 @@
     .header
     {
         display: block;
-        /*width: 768px;*/
     }
 
     .nav
@@ -209,7 +208,6 @@
 
 	.nav-wrapper {
 		top: 80px;
-		/*padding-top: 150px;*/
 	}
 
 	.nav--footer {
@@ -218,7 +216,7 @@
 
 	.designed {
 		display: block;
-		width: 145px;
+		width: 180px;
 		margin-top: 50px;
 	}
 
@@ -234,6 +232,13 @@
 }
 
 @media only screen and (max-width: 767px) {
+
+    .header {
+        height: 143px;
+    }
+    .background-head {
+        height: 548px;
+    }
 	
 	.logo-480 {
 		display: block;
@@ -255,8 +260,6 @@
 		        flex-direction: column;
 	    -webkit-align-items: center;
 	            align-items: center;
-		/*padding-top: 15px;*/
-		/*margin-top: 15px;*/
 	}
 
 	.nav__menu-480 {
@@ -330,8 +333,64 @@
 		     -o-transition: background-color .5s;
                 transition: background-color .5s;
         text-shadow: 0 0 8px rgba(255, 255, 255, .8);
-	}
+    }
+    
+    /* SLIDER ON THE HEADER >>> START*/
+    
+    .slider-place {
+        height: 244px;
+    }
+    
+    #slider {
+        top: -35px;
+        width: 405px;
+        height: 300px;
+    }
 
+    #slider .slick-dots {
+        right: 38.5%;
+        width: 22%;
+        bottom: -15px;
+    }
+
+    .content-slider__wrapper {
+        padding-top: 32%;
+    }
+
+    .content-slider__h3 {
+        width: 180px;
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .content-slider__paragraph {
+        font-size: 1rem;
+        width: 210px;
+    }
+
+    .iphones {
+        width: 46%;
+        height: 100%;
+        left: 52%;
+        top: -153px;
+    }
+
+    .btn-play {
+        top: 102px;
+    }
+
+    .fa-play, .fa-pause {
+        font-size: 1rem;
+    }
+
+    .slider__triangle-l {
+        left: -35px;
+    }
+
+    .slider__triangle-r {
+        left: 415px;
+    }
+    /* SLIDER ON THE HEADER <<< END */
 	.about {
 		height: 600px;
 	}
@@ -342,8 +401,6 @@
 		    -ms-flex-direction: column;
 		        flex-direction: column;
 		padding-bottom: 18px;
-	    /*-webkit-justify-content: space-around;*/
-	            /*justify-content: space-around;*/
 	}
 
 	.about__section {
@@ -389,14 +446,12 @@
 	#slider-comments
     {
     max-width: 445px;
-    /*height: 295px;*/
     margin: auto;
     }
 
     .slider-comments__item
     {
     max-width: 460px;
-    /*height: 295px;*/
     }
 
     .slider-comments__content {
@@ -407,9 +462,7 @@
     .slider-comments__h3-text
     {
         font-size: 1.875rem;
-        /*line-height: 1;*/
         width: auto;
-        /*padding-bottom: 10px;*/
     }
 
     .slider-comments__h3-pink
@@ -457,7 +510,6 @@
     height: inherit;
     padding-left: 0;
     padding-right: 0;
-    /* overflow: hidden; */
 }
 
 .ads__img {
@@ -465,7 +517,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: inherit;
-    /* margin-left: -5%; */
 }
 
 .footer-grid {
@@ -510,7 +561,6 @@
 	}
 
 	.designed {
-		/*display: block;*/
 		margin: auto;
 	}
 
@@ -526,6 +576,22 @@
 
 @media only screen and ( max-width: 479px) {
     
+    #slider {
+        /* max-width: 205px; */
+    }
+    #slider .slick-dots {
+        width: 100%;
+        left: 0;
+    }
+    .content-slider__wrapper {
+        width: 100%;
+        margin: auto;
+    }
+
+    .iphones {
+        display: none;
+    }
+
     .about__section {
         width: 200px;
         height: 100px;
