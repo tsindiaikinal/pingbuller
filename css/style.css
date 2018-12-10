@@ -129,7 +129,9 @@ body
 
 
 .slider__triangle-l,
-.slider__triangle-r
+.slider__triangle-shadowl,
+.slider__triangle-r,
+.slider__triangle-shadowr
 {
 	position: absolute;
     top:52%;
@@ -142,7 +144,8 @@ body
     cursor: pointer;
 }
 
-.slider__triangle-l
+.slider__triangle-l,
+.slider__triangle-shadowl
 {
 	/*PARENT 960px -5.729166667% = -55px*/
     left: -5.2%;
@@ -150,11 +153,14 @@ body
 
 /*.slider__triangle-shadowl*/
 /*.slider__triangle-shadowr */
-.slider__triangle-r
+.slider__triangle-r,
+.slider__triangle-shadowr
 {
 	/*PARENT 960px -5.729166667% = -55px*/
     right: -5.4%;
 }
+
+
 
 #slider .slick-dots
 {
