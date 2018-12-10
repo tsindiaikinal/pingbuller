@@ -29,7 +29,7 @@ $('document').ready(function() {
 		nextArrow: '<svg class="slider__triangle-shadowr" width="24px" height="34px" viewBox="47 1 12 19" ><polyline points="50,4 56,10.5 50,17" stroke="black" stroke-width="5.5" stroke-linecap="round" fill = "none" /></svg><svg class="slider__triangle-r" width="24px" height="34px" viewBox="47 1 12 19"><polyline points="50,4 56,10.5 50,17" stroke="white" stroke-width="4.5" stroke-linecap="round" fill="none"/></svg>'
 	});
 	$('#slider-comments').slick({
-			autoplay:true,
+			// autoplay:true,
 			arrows: false,
 	    slidesToShow:1,
 	    slidesToScroll:1,
